@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="QaymApi.Entity.Data" android:versionCode="1"
+	android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="8" />
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".Main" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".Allitems" android:label="@string/app_name"></activity>
+		<activity android:name=".RestaurantItems" android:label="@string/app_name"></activity>
+		<activity android:name=".AllCities" android:label="@string/app_name"></activity>
+		<activity android:name=".AllRestaurantInCity" android:label="@string/app_name"></activity>
+		<activity android:name=".CitiesInfo" android:label="@string/app_name"></activity>
+		<activity android:name=".CitiesOfCountries" android:label="@string/app_name"></activity>
+		<activity android:name=".Countries" android:label="@string/app_name"></activity>
+		<activity android:name=".CountriesInfo" android:label="@string/app_name"></activity>
+		<activity android:name=".TopRestrantInCity" android:label="@string/app_name"></activity>
+		<activity android:name=".RestaurantBranch" android:label="@string/app_name"></activity>
+		<activity android:name=".RestaurantImage" android:label="@string/app_name"></activity>
+		<activity android:name=".RestaurantInfo" android:label="@string/app_name"></activity>
+		<activity android:name=".RestaurantReview" android:label="@string/app_name"></activity>
+		<activity android:name=".RestaurantVote" android:label="@string/app_name"></activity>
+													
+		</application>
+	
+	
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>
