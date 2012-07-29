@@ -41,7 +41,6 @@ public class Connection {
 	    }catch(Exception e){
 	            Log.e("log_tag", "Error in http connection "+e.toString());
 	    }
-	    
 	  //convert response to string
 	    try{
 	            BufferedReader reader = new BufferedReader(new InputStreamReader(is,"iso-8859-1"),8);
